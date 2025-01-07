@@ -29,6 +29,8 @@ main{
     transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.534);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 div#foto{
