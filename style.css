@@ -20,7 +20,7 @@ body{
 
 main{
     width: 280px;
-    height: 500px;
+    height: 510px;
     background-color: white;
     border-radius: 15px;
     position: absolute;
@@ -48,4 +48,58 @@ div#form p{
     padding: 10px;
     text-align: justify;
     font-size: .9em;
+}
+
+.campo{
+    display: flex;
+    background-color: rgb(105, 104, 104);
+    text-align: center;
+    width: 72%;
+    margin: 5px auto;
+    height: 40px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    display: none;
+}
+
+input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 90%;
+    height: 30px;
+    background-color: rgb(105, 104, 104);
+    border: none;
+    border-radius: 5px;
+    margin: 8px auto;
+    cursor: pointer;
+    color: white;
+    font-weight: 400;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(68, 68, 68);
+    font-weight: 600;
+}
+
+.botao{
+    display: flex;
+    font-size: 1em;
+    width: 90%;
+    margin: auto;
+    height: 30px;
+    background-color: rgb(105, 104, 104);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao:hover{
+    background-color: rgb(68, 68, 68);
+    font-weight: 600;
 }
