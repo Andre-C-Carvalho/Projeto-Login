@@ -48,18 +48,35 @@ div#form p{
     padding: 10px;
     text-align: justify;
     font-size: .9em;
+    font-weight: 500;
 }
 
 .campo{
     display: flex;
     background-color: rgb(105, 104, 104);
     text-align: center;
-    width: 72%;
+    width: 71%;
     margin: 5px auto;
-    height: 40px;
+    height: 35px;
     border-radius: 5px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.campo span{
+    color: white;
+    font-size: 1.6em;
+}
+
+.campo input{
+    border-radius: 5px;
+    height: 29px;
+    border: none;
+    background-color: rgb(236, 236, 236);
+}
+
+.campo input:focus-within{
+    background-color: white;
 }
 
 label{
@@ -102,4 +119,8 @@ input[type=submit]:hover{
 .botao:hover{
     background-color: rgb(68, 68, 68);
     font-weight: 600;
+}
+
+.botao span{
+    font-size: 1.1em;
 }
