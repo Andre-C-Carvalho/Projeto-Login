@@ -6,6 +6,7 @@
     <title>Projeto Login</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media-query.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:FILL@1" rel="stylesheet" />
 </head>
 <body>
     <main>
@@ -15,8 +16,22 @@
         <div id="form">
             <h1>Login</h1>
             <p>Seja bem vindo(a) novamente! Faça login para acessar a área exclusiva destinada a membros.</p>
-            <form action="login.java" method="post">
-
+            <form action="login.java" method="post" autocomplete="on">
+                <div class="campo">
+                    <span class="material-symbols-outlined">person</span>
+                    <input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplete="email" required>
+                    <label for="ilogin">login:</label>
+                </div>
+                <div  class="campo">
+                    <span class="material-symbols-outlined">
+                        key
+                        </span>
+                    <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password" required>
+                    <label for="isenha">senha:</label>
+                </div>
+                <input type="button" value="Entrar">
+                <a href="esqueci.html">Esqueci a senha</a>
+                <span class="material-symbols-outlined">mail</span>
             </form>
         </div>
     </main>

@@ -40,7 +40,12 @@ div#foto{
     background-position: center center;
 }
 
-div#form{
+div#form h1{
+    text-align: center;
+}
+
+div#form p{
     padding: 10px;
     text-align: justify;
+    font-size: .9em;
 }
